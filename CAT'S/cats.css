@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header h1 {
+    font-size: 56px;
+    font-weight: 556;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-top: 8px;
+}
+header {
+    border: 2px solid orange;
+    background-color: gold;
+    border-radius: 7px;
+    top: 8px;
+    position: sticky;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 33px;
+}
+header .b1 button {
+    margin-left: 500px;
+    color: #ffffff;
+    border: 5px solid orange;
+    background-color: gold;
+    border-radius: 10px;
+    padding:8px 12px
+}
+header .b2 button {
+     margin-left: 50px;
+    color: #ffffff;
+    border: 5px solid orange;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 8px 12px
+}
+header button {
+    margin-top: 30px;
+}
+.cards img {
+    border: 2px solid orange;
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 7px 7px;
+    background-color: gold;
+}
+.cards span {
+    border: 2px solid orange;
+    background-color: gold;
+    color: #ffffff;
+    padding: 8px 13px;
+    border-radius: 7px;
+    height: 45px;
+}
+.cards h3 {
+    border: 2px solid orange;
+    border-radius: 8px;
+background-color: gold;
+color: #ffffff;
+width: 445px;
+height: 350px;
+}
+.cards img {
+    position: relative;
+}
+.card1 {
+    display: flex;
+    margin: 45px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+.card2 {
+    display: flex;
+    margin: 45px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+.card3 {
+    display: flex;
+    margin: 45px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+.card4 {
+    display: flex;
+    margin: 45px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+.card5 {
+    display: flex;
+    margin: 45px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+button {
+    cursor: pointer;
+}
+.cards img {
+    cursor: grab;
+}
+.icons {
+position: absolute;
+}
+.icons img {
+    width: 48px;
+    height: 48px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+.icons img:hover {
+    background-color: rgb(183, 126, 20);
+}
+.icons img:active {
+    background-color: orange;
+}
+header button:hover {
+    background-color: rgb(183, 126, 20);
+}
+header button:active {
+    background-color: orange;
+}
